@@ -1,0 +1,540 @@
+/*Mobile styles*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+:root {
+    --soft-cyan: #66e2dc;
+    --soft-red: #fa7453;
+    --light-orange: #ffb964;
+    --light-grayish-orange: #fcfaf9;
+    --very-dark-black: #191826;
+}
+
+body {
+    background-image: url("../assets/bg-main-mobile.png");
+    background-position: left top -200px;
+    background-repeat: no-repeat;
+    padding-top: -200px;
+}
+
+
+.logo {
+    width: 146px;
+    height: 32px;
+    margin: 40px 0 65px 24px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-bottom: 18px;
+    width: 327px;
+}
+
+.header {
+
+    margin: auto 24px;
+    width: 327px;
+    height: 318px;
+
+}
+
+
+.header p {
+    line-height: 30px;
+}
+
+.blackContainer {
+    margin-top: 168px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 375px;
+    background-color: var(--very-dark-black);
+    border-radius: 12px;
+    background-image: url("../assets/bg-pattern-2.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.mobileimage {
+    margin: -330px 80px;
+    width: 209px;
+    height: 436px;
+
+}
+
+.orangeContainer {
+    margin: -180px auto 63px auto;
+    border-radius: 12px;
+    background-color: var(--soft-red);
+    width: 375px;
+    height: 546px;
+    color: var(--light-grayish-orange);
+}
+
+.orangeprice {
+    margin: 0 37px 0 38px;
+
+}
+
+.orangeprice h2 {
+    font-size: 32px;
+    padding-top: 47px;
+    padding-bottom: 12px;
+}
+
+.orangeprice p {
+    padding-bottom: 36px;
+    line-height: 28px;
+    font-weight: 400px;
+}
+
+.pricing p {
+    display: inline;
+    vertical-align: middle;
+}
+
+.big {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.small {
+    font-size: 20px;
+}
+
+.apple {
+    background-color: var(--very-dark-black);
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
+    margin-top: 47px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    align-items: center;
+    border: None;
+}
+
+.apple:hover {
+    background-color: var(--soft-cyan);
+}
+
+.apple p {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--light-grayish-orange);
+}
+
+.android {
+    background-color: var(--light-grayish-orange);
+    width: 296px;
+    height: 61px;
+    padding-top: 15px;
+    border-radius: 12px;
+    align-items: center;
+    border: None;
+}
+
+.android:hover {
+    background-color: var(--light-orange);
+}
+
+.android p {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--very-dark-black);
+}
+
+footer {
+    margin: auto 24px;
+    width: 327px;
+    height: 169px;
+}
+
+footer span {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+footer p {
+    margin-top: 32px;
+    margin-bottom: 70px;
+    width: 300px;
+    height: 105px;
+}
+
+svg {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.svgee {
+    padding-bottom: 80px;
+}
+
+svg:hover {
+    fill: var(--soft-red);
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) {
+    .logo {
+        width: 146px;
+        height: 32px;
+        margin: 40px 0 65px 32px;
+    }
+
+    body {
+        background-image: url('../assets/bg-pattern-1.svg'), url("../assets/bg-main-tablet.png");
+        background-repeat: no-repeat, no-repeat;
+        background-position: top -45px right -30px, top -120px left -160px;
+        background-size: 266px, 120%;
+    }
+
+    .header {
+        margin: auto 32px;
+        width: 520px;
+        height: 332px;
+    }
+
+    h1 {
+        font-size: 64px;
+        font-weight: 700px;
+        line-height: 64px;
+        padding-bottom: 18px;
+        width: 500px;
+    }
+
+    .header p {
+        width: 514px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .blackContainer {
+        margin-top: 249px;
+        margin-left: 33px;
+        margin-right: 39px;
+        height: 600px;
+        width: 696px;
+        background-color: var(--very-dark-black);
+        border-radius: 12px;
+        background-image: url("/assets/bg-pattern-2.svg");
+        background-repeat: no-repeat;
+        background-position: top -60px left 220px;
+    }
+
+    .mobileimage {
+        position: relative;
+        margin: -130px 80px;
+        width: 270px;
+        height: 556px;
+
+    }
+
+    .orangeContainer {
+        position: absolute;
+        margin: -430px 58px 63px 285px;
+        border-radius: 12px;
+        background-color: var(--soft-red);
+        width: 399px;
+        height: 546px;
+        color: var(--light-grayish-orange);
+    }
+
+    .orangeprice {
+        margin: 0 37px 0 48px;
+        width: 302px;
+        height: 140px;
+
+    }
+
+    .orangeprice h2 {
+        font-size: 32px;
+        padding-top: 47px;
+        padding-bottom: 12px;
+    }
+
+    .orangeprice p {
+        line-height: 28px;
+        font-weight: 400px;
+    }
+
+    .pricing p {
+        display: inline;
+        vertical-align: middle;
+    }
+
+    .big {
+        font-size: 65px;
+        font-weight: 700;
+    }
+
+    .small {
+        font-size: 20px;
+    }
+
+
+    .apple {
+        background-color: var(--very-dark-black);
+        width: 296px;
+        height: 61px;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        padding-top: 15px;
+        align-items: center;
+        border: None;
+    }
+
+    .apple:hover {
+        background-color: var(--soft-cyan);
+    }
+
+    .apple p {
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--light-grayish-orange);
+    }
+
+    .android {
+        background-color: var(--light-grayish-orange);
+        width: 296px;
+        height: 61px;
+        border-radius: 12px;
+        padding-top: 15px;
+        align-items: center;
+        border: None;
+
+    }
+
+    .android:hover {
+        background-color: var(--light-orange);
+    }
+
+    .android p {
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--very-dark-black);
+    }
+
+
+    footer {
+        padding-top: 200px;
+        width: 696px;
+        height: 143px;
+    }
+
+    footer span {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 700;
+    }
+
+    footer p {
+        margin-top: 37px;
+        width: 366px;
+        height: 79px;
+    }
+
+    .svgee {
+        margin-top: -130px;
+        margin-left: 550px;
+    }
+
+    svg:hover {
+        fill: var(--soft-red);
+    }
+
+
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+    .logo {
+        width: 146px;
+        height: 32px;
+        margin: 61px 0 65px 300px;
+    }
+
+    body {
+        background-image: url('../assets/bg-pattern-1.svg'), url("../assets/bg-main-tablet.png");
+        background-repeat: no-repeat;
+        background-position: top -45px right, top -450px left -10px;
+        background-size: 380px, 100%;
+    }
+
+    .header {
+        margin: auto 300px;
+        width: 1015px;
+
+    }
+
+    h1 {
+        font-size: 88px;
+        font-weight: 700px;
+        line-height: 88px;
+        padding-top: 66px;
+        padding-bottom: 60px;
+        width: 1015px;
+    }
+
+    .header p {
+        width: 825px;
+        height: 102px;
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .blackContainer {
+        margin-top: 400px;
+        margin-left: 300px;
+        margin-right: 320px;
+        height: 600px;
+        width: 1400px;
+        background-color: var(--very-dark-black);
+        border-radius: 12px;
+        background-image: url("../assets/bg-pattern-2.svg");
+        background-repeat: no-repeat;
+        background-position: top -50px left 550px;
+        background-size: 25%;
+    }
+
+    .mobileimage {
+        position: relative;
+        margin: -160px 350px;
+        width: 312px;
+        height: 632px;
+    }
+
+    .orangeContainer {
+        position: absolute;
+        margin: -450px 58px 80px 1130px;
+        border-radius: 12px;
+        background-color: var(--soft-red);
+        width: 446px;
+        height: 610px;
+        color: var(--light-grayish-orange);
+    }
+
+    .orangeprice {
+        margin: 0 58px 48px 59px;
+        width: 302px;
+    }
+
+    .orangeprice h2 {
+        font-size: 50px;
+    }
+
+    .orangeprice p {
+        line-height: 34px;
+        width: 333px;
+    }
+
+    .pricing p {
+        display: inline;
+        vertical-align: middle;
+    }
+
+    .pricing {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .big {
+        font-size: 80px;
+        font-weight: 700;
+    }
+
+    .small {
+        font-size: 20px;
+    }
+
+    .apple {
+        background-color: var(--very-dark-black);
+        width: 333px;
+        height: 61px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        padding-top: 15px;
+        align-items: center;
+        border: None;
+    }
+
+    .apple:hover {
+        background-color: var(--soft-cyan);
+    }
+
+    .apple p {
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--light-grayish-orange);
+    }
+
+    .android {
+        background-color: var(--light-grayish-orange);
+        width: 333px;
+        height: 61px;
+        border-radius: 12px;
+        padding: 15px 10px;
+        border: None;
+        margin-bottom: 48px;
+    }
+
+    .android:hover {
+        background-color: var(--light-orange);
+    }
+
+    .android p {
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--very-dark-black);
+    }
+
+    footer {
+        margin-top: 87px;
+        margin-left: 300px;
+        width: 1400px;
+        height: 79px;
+    }
+
+    footer span {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 700;
+    }
+
+    footer p {
+        margin-top: 37px;
+        width: 336px;
+        height: 79px;
+        font-size: 16px;
+        line-height: 26px;
+        margin-left: 600px;
+        text-align: justify;
+    }
+
+    .footer-paragraph {
+        margin-top: -70px;
+    }
+
+    .svgee {
+        margin-top: -120px;
+        margin-left: 1270px;
+
+    }
+
+    svg:hover {
+        fill: var(--soft-red);
+    }
+
+}
