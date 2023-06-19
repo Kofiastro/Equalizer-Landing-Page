@@ -19,8 +19,8 @@ This is a solution to the [Equalizer landing page challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [(https://github.com/Kofiastro/Social-proof-section-solution)]
-- Live Site URL:[(https://poetic-paletas-7d009c.netlify.app/)]
+- Solution URL: [()]
+- Live Site URL:[()]
 
 ## My process
 Using Tailwindcss i have been able to work on designs much faster and i want to learn more by working on more projects at frontendmentor to help me be good at it.
